@@ -7,10 +7,11 @@ Bom aqui abaixo estão os 3 fluxos críticos que indenfiquei com problemas na pl
 ## **1. Problema ao Adicionar um Novo Cartão e Retorno para a Tela de Perfil**
 
 ### **Descrição:**
-- O usuário acessa **Sacola > Pagamento > Trocar > Adicionar novo cartão > Crédito > Adicionar dados de cartão**.
+- Na necessidade de adicionar um novo cartão o usuário acessa **Sacola > Pagamento > Trocar > Adicionar novo cartão > Crédito > Adicionar dados de cartão**.
 - Após preencher os dados e confirmar, o sistema redireciona o usuário para a **página de carteira de pagamentos** (`/perfil/payment`).
-- O botão de "voltar" envia o usuário para a tela de **perfil**, e não de volta ao fluxo de pagamento.
+- O botão de "voltar" envia o usuário para a tela de **perfil**, e não de volta ao fluxo da sacola.
 - A sacola só pode ser acessada pela aba **“Delivery”**, tornando o fluxo confuso e dificultando a finalização do pedido.
+![Tela de pagamentos apos adioconar novo cartão](prints/problema-1-tela-de-forma-de-pagamento.png)
 
 ### **Impacto no Usuário:**
 - O cliente pode **se perder no fluxo de pagamento** e não conseguir finalizar a compra.
@@ -37,7 +38,7 @@ Bom aqui abaixo estão os 3 fluxos críticos que indenfiquei com problemas na pl
 ### **Descrição:**
 - O usuário tenta sair da conta usando o botão **“Sair”** na interface web (testado nos navegadores Edge, Chrome e Firefox).
 - O botão **não executa nenhuma ação**, impedindo o usuário de fazer logout.
-- O mesmo problema foi reproduzido no smartphone.
+- O mesmo problema foi reproduzido no smartphone(iphone XR via safari e edge).
 
 ### **Impacto no Usuário:**
 - Falha grave de **segurança**, pois usuários podem ficar logados em dispositivos compartilhados.
@@ -72,7 +73,6 @@ Bom aqui abaixo estão os 3 fluxos críticos que indenfiquei com problemas na pl
 ---
 
 ## **Outros Problemas Identificados**
-- **Redirecionamento confuso:** Em diversas telas, o usuário é levado para locais inesperados sem uma opção clara de retorno.
 - **Mensagens de erro pouco informativas:** Erros como o de adicionar cartão não explicam claramente o que ocorreu, dificultando a ação do usuário.
 - **Experiência inconsistente entre dispositivos:** Problemas que ocorrem no desktop podem não estar presentes no mobile e vice-versa, o que pode indicar falhas na adaptação responsiva.
 
