@@ -11,7 +11,13 @@ Bom aqui abaixo estão os 3 fluxos críticos que indenfiquei com problemas na pl
 - Após preencher os dados e confirmar, o sistema redireciona o usuário para a **página de carteira de pagamentos** (`/perfil/payment`).
 - O botão de "voltar" envia o usuário para a tela de **perfil**, e não de volta ao fluxo da sacola.
 - A sacola só pode ser acessada pela aba **“Delivery”**, tornando o fluxo confuso e dificultando a finalização do pedido.
+  ### Prints:
+  Tela de pagamentos apos adioconar novo cartão
+  
 ![Tela de pagamentos apos adioconar novo cartão](prints/problema-1-tela-de-forma-de-pagamento.png)
+
+Tela de login apos a tela de pagamento (não é visivel a sacola)
+![Tela de login apos a tela de pagamento (não é visivel a sacola)](prints/tela-de-login-apos-tela-de-pagamentos.png)
 
 ### **Impacto no Usuário:**
 - O cliente pode **se perder no fluxo de pagamento** e não conseguir finalizar a compra.
