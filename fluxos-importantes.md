@@ -99,4 +99,4 @@ nao e possivel realizar logout
 ## **Conclusão**
 Os fluxos identificados comprometem a usabilidade, a segurança e a conversão de vendas do delivery do Coco Bambu. Corrigir esses problemas garantirá uma experiência mais intuitiva, segura e eficiente para os usuários.
 
-**Sugestão:** Adicionar prints e evidências visuais para facilitar a identificação e a reprodução dos problemas.
+
