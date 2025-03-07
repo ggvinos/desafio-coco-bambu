@@ -13,9 +13,16 @@ Bom aqui abaixo estão os 3 fluxos críticos que indenfiquei com problemas na pl
 - A sacola só pode ser acessada pela aba **“Delivery”**, tornando o fluxo confuso e dificultando a finalização do pedido.
   ### Prints:
   Tela de pagamentos apos adioconar novo cartão
+<<<<<<< HEAD
 ![Tela de pagamentos apos adioconar novo cartão](prints/problema-1-tela-de-forma-de-pagamento.png)
 
  Tela de login apos a tela de pagamento (não é visivel a sacola)
+=======
+  
+![Tela de pagamentos apos adioconar novo cartão](prints/problema-1-tela-de-forma-de-pagamento.png)
+
+Tela de login apos a tela de pagamento (não é visivel a sacola)
+>>>>>>> f674e591cbfbbe4e6de060c4a2a0a2a077d1bbbc
 ![Tela de login apos a tela de pagamento (não é visivel a sacola)](prints/tela-de-login-apos-tela-de-pagamentos.png)
 
 ### **Impacto no Usuário:**
