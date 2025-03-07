@@ -11,7 +11,12 @@ Bom aqui abaixo estão os 3 fluxos críticos que indenfiquei com problemas na pl
 - Após preencher os dados e confirmar, o sistema redireciona o usuário para a **página de carteira de pagamentos** (`/perfil/payment`).
 - O botão de "voltar" envia o usuário para a tela de **perfil**, e não de volta ao fluxo da sacola.
 - A sacola só pode ser acessada pela aba **“Delivery”**, tornando o fluxo confuso e dificultando a finalização do pedido.
+  ### Prints:
+  Tela de pagamentos apos adioconar novo cartão
 ![Tela de pagamentos apos adioconar novo cartão](prints/problema-1-tela-de-forma-de-pagamento.png)
+
+ Tela de login apos a tela de pagamento (não é visivel a sacola)
+![Tela de login apos a tela de pagamento (não é visivel a sacola)](prints/tela-de-login-apos-tela-de-pagamentos.png)
 
 ### **Impacto no Usuário:**
 - O cliente pode **se perder no fluxo de pagamento** e não conseguir finalizar a compra.
@@ -26,6 +31,9 @@ Bom aqui abaixo estão os 3 fluxos críticos que indenfiquei com problemas na pl
 - Ao tentar adicionar um cartão **American Express (15 dígitos)**, o botão “Salvar” não é habilitado.
 - Se o usuário **adicionar um número aleatório no final**, o botão é habilitado, mas ao tentar salvar, aparece a mensagem:
   *“Não foi possível cadastrar seu cartão no momento. Por favor, tente novamente.”*
+   ### Print:
+   tela de novo cartao nao aceita cartoes com 15 digitos
+   ![tela de novo cartao nao aceita cartoes com 15 digitos](prints/tela-de-novo-cartao-nao-aceita-cartoes-com-15-digitos.png)
 
 ### **Impacto no Usuário:**
 - O sistema **não reconhece corretamente cartões com 15 dígitos**, impedindo clientes de usar cartões Amex.
@@ -39,6 +47,9 @@ Bom aqui abaixo estão os 3 fluxos críticos que indenfiquei com problemas na pl
 - O usuário tenta sair da conta usando o botão **“Sair”** na interface web (testado nos navegadores Edge, Chrome e Firefox).
 - O botão **não executa nenhuma ação**, impedindo o usuário de fazer logout.
 - O mesmo problema foi reproduzido no smartphone(iphone XR via safari e edge).
+### Print:
+nao e possivel realizar logout
+![nao e possivel realizar logout](prints/nao-e-possivel-realizar-logout.png)
 
 ### **Impacto no Usuário:**
 - Falha grave de **segurança**, pois usuários podem ficar logados em dispositivos compartilhados.
