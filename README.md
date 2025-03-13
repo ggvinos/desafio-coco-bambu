@@ -91,6 +91,7 @@ Para estruturar e organizar o desafio, utilizei as seguintes ferramentas:
 # **🔍 Observações Finais**
 
 - Caso os testes falhem, **verifique as requisições da API** antes de rodá-los novamente.
+- O teste pode não funcionar dependendo do horario, por conta da hora de funcionamento dos restaurantes.
 - A estrutura **POM (Page Object Model)** foi utilizada para facilitar a manutenção dos testes.
 - **Seletor inconsistentes** podem gerar testes flakey; rodar novamente pode resolver.
 
