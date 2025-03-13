@@ -2,9 +2,9 @@
 
 Este projeto contém:  
 
-✅ **Identificação de Fluxos Importantes**  
-✅ **Teste de Automação UI**  
-✅ **Teste de Automação API**  
+✅ [**Identificação de Fluxos Importantes**](fluxos_importantes.md)  
+✅ [**Teste de Automação UI**](cypress/e2e/ui_tests.cy.js)  
+✅ [**Teste de Automação API**](cypress/e2e/api_cart_tests.cy.js)  
 
 A automação de testes para o fluxo de compra dentro da plataforma **Coco Bambu** foi desenvolvida utilizando **Cypress**. O projeto segue a estrutura **Page Object Model (POM)**, com **seletores organizados** para melhor manutenção e reutilização do código.  
 
@@ -69,4 +69,30 @@ Os testes incluem:
 ### **1️⃣ Instalar as dependências**  
 Execute o comando abaixo no terminal para instalar todas as dependências necessárias:  
 ```bash
-npm install
+npm instal
+```
+### **2️⃣ Abrir o Cypress no modo interativo**
+
+Para visualizar os testes na interface do Cypress, use:
+```bash
+npx cypress open
+```
+# **📌 Ferramentas e Recursos Utilizados**  
+
+Para estruturar e organizar o desafio, utilizei as seguintes ferramentas:  
+
+✅ **Notion** → Para documentar ideias, estruturar fluxos e organizar o planejamento do desafio.  
+✅ **ChatGPT** → Para "embelezar" o README e tirar dúvidas pontuais.  
+✅ **Documentação do Cypress** → Para seguir as melhores práticas de automação de testes UI e API.  
+✅ **GitHub** → Para versionamento do código e entrega do desafio.  
+✅ **DevTools e CSS Selector Extension (Chrome)** → Para inspecionar elementos, encontrar seletores e testar requisições da API.  
+✅ **Spotify** → Muitas horas de música foram utilizadas para manter a produtividade😂😂😂😂 
+
+# **🔍 Observações Finais**
+
+- Caso os testes falhem, **verifique as requisições da API** antes de rodá-los novamente.
+- A estrutura **POM (Page Object Model)** foi utilizada para facilitar a manutenção dos testes.
+- **Seletor inconsistentes** podem gerar testes flakey; rodar novamente pode resolver.
+
+
+
