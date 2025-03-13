@@ -2,9 +2,9 @@
 
 Este projeto contém:  
 
-✅ [**Identificação de Fluxos Importantes**](fluxos_importantes.md)  
-✅ [**Teste de Automação UI**](cypress/e2e/ui_tests.cy.js)  
-✅ [**Teste de Automação API**](cypress/e2e/api_cart_tests.cy.js)  
+✅ [**Identificação de Fluxos Importantes**](fluxos-importantes.md)  
+✅ [**Teste de Automação UI**](cypress/e2e/add_card_and_checkout.spec.cy.js)  
+✅ [**Teste de Automação API**](cypress/e2e/cart_api.cy.js)  
 
 A automação de testes para o fluxo de compra dentro da plataforma **Coco Bambu** foi desenvolvida utilizando **Cypress**. O projeto segue a estrutura **Page Object Model (POM)**, com **seletores organizados** para melhor manutenção e reutilização do código.  
 
