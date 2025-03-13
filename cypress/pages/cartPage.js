@@ -1,6 +1,6 @@
 class CartPage {
 
-    closeLocateButton(){
+    closeLocateButtonAndAddItem(){
         
         cy.get('div.ng-tns-c2839910812-3 > .ng-tns-c2839910812-3')
               .should('be.visible');
